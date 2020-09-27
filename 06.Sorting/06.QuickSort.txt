@@ -1,0 +1,18 @@
+Quick Sort
+
+1. Divide and Conquer algorithm
+2. The key part here is partitioning(Hoare, Lomuto, Naive)
+3. Worst case time complexity is O(n^2)
+4. Despite having Worst case time complexity, it is preffered over other algorithms many times due to
+    the following reasons
+    - Tail recursive
+    - In place
+    - Cache friendly
+    - Average case Theta(nlogn)
+
+
+Hoare and Lomuto are not stable, whereas Naive is stable.
+
+Tail call Recursion:
+    When the parent call is independent of the child recursive call, we can eliminate auxillary
+    space used for recursive calls by using tail recursion.
