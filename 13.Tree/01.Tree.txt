@@ -1,0 +1,31 @@
+Applications of Tree Data structure:
+
+1. To represent hierarchial Data
+    - Organization structure
+    - Folder structure
+    - xml/html content (JSON Objects)
+    - In OOP (Inheritance)
+2. Binary search trees
+3. Heaps
+4. B and B+ trees in DBMS
+5. spanning and short spanning trees in computer networks
+6. parse trees and expression trees in compilers
+7. Tries
+8. Suffix trees
+9. Binary indexed tree
+10. Segment tree
+
+Tree Traversal:
+1. BFS (Bredth first traversal)
+2. DFS (Depth first traversal)
+    - Inorder (left->root->right)
+    - Preorder (root->left->right)
+    - Postorder (left->right->root)
+    
+ex:             10
+              /    \
+            20      30
+
+    Inorder: 20 10 30
+    Preorder: 10 20 30
+    Postorder: 20 30 10
