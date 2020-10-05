@@ -1,0 +1,41 @@
+BST - Binary Search Tree
+
+        Array(Unsorted)     Array(Sorted)       LinkedList      BST(Balanced)       HashTable
+
+Search      O(n)                O(logn)             O(n)            O(logn)             O(1)
+
+Insert      O(1)                O(n)                O(1) &
+                                                    O(n) in Sorted  O(logn)             O(1)
+
+Delete      O(n)                O(n)                O(n)            O(logn)             O(1)
+
+Find
+Closest     O(n)                O(logn)             O(n)            O(logn)             O(n)
+
+Sorted      O(nlogn)            O(n)                O(nlogn)        O(n)                O(nlogn)
+Traversal
+
+- Binary Search tree has the Best time complexity, considering all the operations.
+
+- For every node, keys in the left are smaller and keys in the right are greater.
+
+- All keys are typically considered as distinct.
+
+- Like LinkedList, it is linked data structure.
+
+- Implemented in C++ as map, set, multimap and multiset.
+
+example:
+            50
+          /    \
+        30      70
+       /  \    /  \
+     10   40  60  80
+
+Applications (self-balanced):
+
+1. To maintain sorted stream of data.(or Sorted set of data)
+2. To implement doubly ended priority queue.
+3. For solvingproblems like:
+    - Count smaller or greater in a stream.
+    - Floor/Ceil/Greater/Smaller in a stream.
