@@ -1,0 +1,6 @@
+Segment Tree
+
+1. Used for fixed type array and following two types of operation
+    a. Range query: O(logn) typically
+    b. Update a value: O(logn) typically
+    
