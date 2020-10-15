@@ -1,0 +1,44 @@
+Greedy Algorithms
+
+Greedy algorithms are used for optimization problems, 
+like to maximize something or minimize something.
+
+Ex:
+Consider infinite supply of the following value coins
+    10   5   2   1
+If someone asks you for an amount, how will you give this amount using minimum coins?
+****************************
+Amount: 52
+Take 5 coins of 10 rs.
+Take one coin of 2 rs.
+****************************
+
+General Structure
+
+getOptimal(Item arr[], int n)
+
+1. Initialize: res = 0
+2. while(all items are not considered) {
+    i = selectAnItem()
+    if(feasible(i))
+        res = res+i
+}
+3. Return res
+
+Greedy algorithms may not work always
+
+consider 
+    coins[] = {18, 1, 10}
+    amount = 20
+
+Applications:
+    1. Finding optimal solutions
+        - Activity selection
+        - Fractional knapsack
+        - Job sequencing
+        - Prim's algorithms
+        - Kruskal's algorithms
+        - Dijkstra's algorithms
+        - Huffman coding
+    2. Finding close to optimal solutions for NP hard problems like Travelling salesman problem
+    
