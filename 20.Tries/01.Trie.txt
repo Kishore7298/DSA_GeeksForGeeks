@@ -1,0 +1,19 @@
+Tries
+
+Efficient for the following operations on words in a dictionary
+1. Search
+2. Insert
+3. Delete
+4. Prefix search
+5. Lexographical ordering of words
+
+Compariosion with hashing
+
+                    Tries                               hashing
+
+Search              theta(word_len) on worst case      thete(word_len) on Average
+Insert              same as above                       same as above
+Delete              same as above                       same as above
+Prefix Search       theta(prefix_len + output_len)      Not supported
+Lexographical
+    ordering        theta(output_len)                   Not supported
