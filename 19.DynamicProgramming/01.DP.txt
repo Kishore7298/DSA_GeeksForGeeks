@@ -1,0 +1,13 @@
+Dynamic Programming
+
+In simple words, it is a optimization over plain recursion.
+The idea is to reuse the solution of the subproblem, when there are overlapping subproblems.
+1. Memoization(Top Down)
+2. Tabulation(Bottom up)
+
+Applications:
+1. Bellman Ford Algorithm
+2. Floyd warshall Algorithm
+3. Diff utility(LCS)
+4. Search close words(Edit distance)
+5. Resource allocation(0-1 knapsack)
