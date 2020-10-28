@@ -1,0 +1,26 @@
+Phase 1:(Finding the cycle)
+
+    Phase 1 says that, the fast pointer and the slow pointer will meet somewhere inside the loop.
+    Proof:
+        1. Fast will enter the cycle first(or at the same time)
+        2. In every iteration the distance between the slow pointer and the fast pointer increases
+            by 1.
+        3. When the increasing distance becomes the cycle length, they should meet.
+
+Phase 2:(Finding the starting point of the loop)
+
+    O -m-> O -x-> O -c-> O
+
+    m - distance to the start of the cycle
+    x - point at both slow and fast pointer meet
+    c - cycle length
+
+    Before first meeting:
+        Fast distance = 2*(slow distance)
+        m+x+(c*i) = 2*(m+x+(c*j))   // i, j are the number of iterations made by fast and slow pointer
+        m+x = c*(i-2j);
+        Hence, m+x is a multiple of c.
+
+    After the first meeting:
+        Both the pointers are at x position, 
+        so for the multiple to hold true, they have to meet at the starting of the loop(+m)
