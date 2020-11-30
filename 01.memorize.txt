@@ -1,0 +1,18 @@
+01. Insertion Sort
+02. Merge Sort
+03. Quick Sort
+04. Binary Search
+05. Seive of Erathosthenes
+06. Rabin Karp algotithm
+07. KMP algorithm
+08. BST Operations
+09. Heap Operations - Insert, Delete, getMin, Heapify
+10. Heap Sort
+11. Prim's minimum spanning tree
+12. Djikstra's algorithm
+13. Topological Sort
+14. Kosaraju's algorithm for Strongly connected components
+15. Belman ford shortest path
+16. Bridges in graph
+17. Torjan's algorithm
+18. Kruskal's minimum spanning tree 
