@@ -16,3 +16,4 @@
 16. Bridges in graph
 17. Torjan's algorithm
 18. Kruskal's minimum spanning tree 
+19. Hasing functions - Linear probing, Chaining, Quadratiac probing.
